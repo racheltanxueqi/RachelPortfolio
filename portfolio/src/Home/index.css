@@ -1,0 +1,28 @@
+.section {
+    display: flex;
+    margin-top: 110px;
+    width: 100%;
+    height:600px
+  }
+
+.section-container {
+    position: relative;
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 15%; 
+}
+
+.section-content{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.section-home-label-2 {
+    width: 100%;
+}
+
+.section-home-label-3 {
+    margin-top: 20px;
+    width: 50%
+}
