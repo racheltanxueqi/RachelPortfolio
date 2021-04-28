@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+@import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image {
+    height: 20vw;
+}
+
+.image-social {
+    width: 12vw;
+    padding: 5vw 0;
+    padding-right: 4vw;
+}
+
+.description {
+    padding-left: 6vw;
+}
+
+.name {
+    font-size: 1.8vw;
+    font-weight: 700;
+    font-family: "Graphik Web Regular", sans-serif;
+    letter-spacing: -1px;
+}
+.intro {
+    font-size: 2.2vw;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+}
+
+.email-button {
+    background: #f7dff3;
+    border: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw; 
+}
+
+.email-button::after {
+    display: block;
+    padding-bottom: 100%;
+}
